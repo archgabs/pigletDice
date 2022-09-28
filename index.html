@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="cfgFiles/style.css" />
+        <link
+            rel="shortcut icon"
+            href="favicon/favicon.png"
+            type="image/x-icon"
+        />
+        <title>Piglet Dice 🎲</title>
+    </head>
+    <body>
+        <main class="app">
+            <div class="panel side0 activePlayer">
+                <div class="player">Player 1</div>
+                <div class="score score--0">0</div>
+                <div class="currentScoreDiv">
+                    <div class="currentRollStack">Current Roll Stack</div>
+                    <div class="currentScore current--0">0</div>
+                </div>
+            </div>
+            <div class="panel side1">
+                <div class="player">Player 2</div>
+                <div class="score score--1">0</div>
+                <div class="currentScoreDiv">
+                    <div class="currentRollStack">Current Roll Stack</div>
+                    <div class="currentScore current--1">0</div>
+                </div>
+            </div>
+            <div class="btns">
+                <button class="btn btn-roll">🎲 Roll Dice</button>
+                <button class="btn btn-hold">✊ Hold</button>
+                <button class="btn btn-restart">🔃 Restart Game</button>
+            </div>
+        </main>
+        <img class="dice hidden" src="dice-1.png" width="64px" alt="dice" />
+        <script src="cfgFiles/script.js"></script>
+    </body>
+</html>
